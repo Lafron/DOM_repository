@@ -22,7 +22,7 @@ function handler(){
 
 bttn.style.display = "none";
 
-range.addEventListener("change", resize);
+range.addEventListener("input", resize);
 
 
 function resize(){
